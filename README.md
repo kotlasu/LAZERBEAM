@@ -17,7 +17,7 @@
 ## ⚡ What is this?
 
 `lazerbeam.sh` is a Linux terminal script that backs up photos from your iPhone using `rsync` over GVFS. It handles all the pain of USB transfers, works around iOS quirks, shows real-time progress, and is fully resumable.
-It was born because my spouse’s phone had tens of thousands of chaotic, half-blurry, WTF photos and memes... and she said _“copying them takes too long — just skip it”_.
+It was born because my spouse’s phone had tens of thousands of chaotic, half-blurry, WTF photos and memes... and she said _“copying them takes too long - just skip it”_.
 Which, for my broken brain, was obviously a challenge. 😈
 I didn’t have a Mac nearby, so this little daemon was born.
 
@@ -51,7 +51,7 @@ I didn’t have a Mac nearby, so this little daemon was born.
 - `rsync`, `sha256sum`, `gio` — should already be installed
 - If using immutable system: run it inside `toolbox` or `distrobox`
 
-⚠️ macOS users: this script won’t work there — use AirDrop, Finder, or photos app.
+⚠️ macOS users: this script won’t work there - use AirDrop, Finder, or photos app.
 This tool is for people who chose pain (aka Linux on desktop ❤️‍🔥).
 
 ---
