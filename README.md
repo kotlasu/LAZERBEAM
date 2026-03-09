@@ -48,10 +48,10 @@ I didn’t have a Mac nearby, so this little daemon was born.
 
 - Linux (tested on Fedora Silverblue & Bluefin)
 - iPhone mounted via GVFS (via GNOME Files, nautilus etc.)
-- `rsync`, `sha256sum`, `gio` — should already be installed
+- `rsync`, `sha256sum`, `gio` - should already be installed
 - If using immutable system: run it inside `toolbox` or `distrobox`
 
-⚠️ macOS users: this script won’t work there - use AirDrop, Finder, or photos app.
+⚠️ macOS users: this script won’t work there — use AirDrop, Finder, or photos app.
 This tool is for people who chose pain (aka Linux on desktop ❤️‍🔥).
 
 ---
@@ -90,7 +90,7 @@ You’ll see per-folder status and live rsync output:
 
 ### CLI flags
 
-- `--help` – shows usage information
+- `--help` — shows usage information
 
 ### Environment variables
 
@@ -105,7 +105,7 @@ DISABLE_SOUND=1
 
 ## 🛑 What happens on interrupt?
 
-- You can hit `Ctrl+C` or unplug the phone — no problem.
+- You can hit `Ctrl+C` or unplug the phone - no problem.
 - Next run will **skip** copied files using checksums (no duplicates).
 - Interrupts are logged in `lazerbeam.log`.
 
@@ -123,7 +123,7 @@ True duplicates (same hash) are listed in:
 
 ## 🛰️ MINI-LAZER
 
-A lightweight standalone script (`mini-lazer.sh`) that verifies if all your photos were backed up — without copying anything.
+A lightweight standalone script (`mini-lazer.sh`) that verifies if all your photos were backed up - without copying anything.
 
 What it does:
 
@@ -166,8 +166,7 @@ Feel free to fork, adapt, or contribute chaos.
 
 ## ☕ Support this madness
 
-If LAZERBEAM saved you hours of scrolling through blurry memes and cursed screenshots —
-consider buying me a coffee. It helps me stay caffeinated enough to pump-out more absurd stuff like this one.
+If LAZERBEAM saved you hours of scrolling through blurry memes and cursed screenshots - consider buying me a coffee. It helps me stay caffeinated enough to pump-out more absurd stuff like this one.
 
 <p align="center">
   <a href="https://ko-fi.com/kotlasu" target="_blank">
