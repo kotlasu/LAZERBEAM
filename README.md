@@ -51,7 +51,7 @@ I didn’t have a Mac nearby, so this little daemon was born.
 - `rsync`, `sha256sum`, `gio` - should already be installed
 - If using immutable system: run it inside `toolbox` or `distrobox`
 
-⚠️ macOS users: this script won’t work there — use AirDrop, Finder, or photos app.
+⚠️ macOS users: this script won’t work there - use AirDrop, Finder, or photos app.
 This tool is for people who chose pain (aka Linux on desktop ❤️‍🔥).
 
 ---
@@ -90,7 +90,7 @@ You’ll see per-folder status and live rsync output:
 
 ### CLI flags
 
-- `--help` — shows usage information
+- `--help` - shows usage information
 
 ### Environment variables
 
